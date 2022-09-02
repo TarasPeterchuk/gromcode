@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Первые стили</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- <link rel="stylesheet" href="l1.css" /> -->
+    <style>
+      .sectOne {
+        color: green;
+      }
+
+      ul {
+        font-size: 22px;
+      }
+
+      .third {
+        color: orange;
+      }
+      .sectTwo {
+        background-color: yellow;
+      }
+      .pTwo {
+        color: white;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sectOne">
+      <p>Стили элементу можно задать с помощью:</p>
+      <ul>
+        <li>Атрибута 'style'</li>
+        <li>Тега 'style'</li>
+        <li class="third">
+          Используя отдельный файл с расширением <code>.css</code>
+        </li>
+      </ul>
+    </section>
+    <section class="sectTwo">
+      <p>
+        CSS свойства "width" и "height" не работают для инлайновых элементов
+      </p>
+      <p class="pTwo">
+        Наследование в CSS — механизм, с помощью которого значения свойств
+        элемента-родителя передаются его элементам-потомкам.
+      </p>
+    </section>
+  </body>
+</html>
