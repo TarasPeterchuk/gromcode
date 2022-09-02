@@ -7,6 +7,10 @@ img[src$='jpg'] {
 li[data-description~='even'] {
   background-color: grey;
 }
+li[data-description*='even'] {
+  font-size: 24px;
+}
+
 a[href^='https://']
 {
   color: green;
