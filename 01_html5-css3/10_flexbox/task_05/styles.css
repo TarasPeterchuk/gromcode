@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
