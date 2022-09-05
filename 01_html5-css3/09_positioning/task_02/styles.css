@@ -7,11 +7,11 @@
 }
 .red {
   float: left;
-  background-color: red;
+  background-color: green;
 }
 .green {
   float: right;
-  background-color: green;
+  background-color: red;
 }
 footer {
   clear: both;
