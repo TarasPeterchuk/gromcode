@@ -3,9 +3,9 @@
 }
 .dropdown {
   margin: 16px;
+  display: inline-block;
 }
 .menu-button {
-  display: inline-block;
   padding: 16px;
   background-color: darkgreen;
   opacity: 0.8;
