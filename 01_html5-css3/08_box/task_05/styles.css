@@ -1,40 +1,20 @@
-body {
-  background-color: #bdc3c7;
+* {
+  box-sizing: border-box;
 }
-h1 {
-  color: #9b59b6;
+div {
+  padding: 50px;
+  border: 2px solid black;
 }
-h2 {
-  color: orange;
+.div1 {
+  margin: 50px;
+  background-color: blue;
 }
-li {
-  color: blue;
-}
-p {
+.div2 {
   background-color: yellow;
 }
-input {
-  border: 3px solid red;
+.div3 {
+  background-color: green;
 }
-.hello {
-  background-color: white;
-}
-#special {
-  border: 2px solid blue;
-}
-div > p {
-  font-size: 25px;
-}
-input[type="text"] {
-  background-color: gray;
-}
-div:nth-of-type(3) > p {
-  background-color: yellow;
-}
-div:nth-of-type(3) > p:nth-of-type(2) {
-  border: 5px solid white;
-}
-div:nth-of-type(3) em {
-  color: white;
-  font-size: 20px;
+.div4 {
+  background-color: pink;
 }
