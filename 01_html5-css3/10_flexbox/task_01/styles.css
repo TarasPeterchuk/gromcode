@@ -1,0 +1,11 @@
+.horizontal {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.vertical {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
