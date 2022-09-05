@@ -7,7 +7,7 @@ body {
 }
 header {
   display: flex;
-  justify-content: space-around;
+  margin: auto;
 }
 .article {
   display: block;
