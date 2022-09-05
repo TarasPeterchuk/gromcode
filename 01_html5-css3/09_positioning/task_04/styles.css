@@ -1,6 +1,25 @@
-.div1 {
-  padding: 50px;
-  background-color: aqua;
-  border: 3px solid black;
-  margin-bottom: 50px;
+header,
+footer {
+  height: 50px;
+}
+header {
+  background-color: yellow;
+}
+main {
+  width: 80%;
+  float: left;
+  background-color: pink;
+}
+.sidebar {
+  width: 20%;
+  float: left;
+  background-color: grey;
+}
+main,
+.sidebar {
+  height: 500px;
+}
+footer {
+  clear: both;
+  background-color: green;
 }
