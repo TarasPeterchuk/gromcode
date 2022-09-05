@@ -1,25 +1,18 @@
-body {
-  display: flex;
+* {
+  box-sizing: border-box;
 }
-
-.block {
-  height: 300px;
-
-  flex-grow: 1;
+div {
+  display: inline-block;
+  margin: 16px;
+  border-bottom: 1px dotted black;
 }
-
-.block_red {
-  background-color: red;
+.tooltip {
+  display: none;
+  background-color: grey;
+  border-radius: 4px;
+  padding: 8px;
+  bottom: -40px;
 }
-.block_green {
-  background-color: green;
-}
-.block_blue {
-  background-color: blue;
-}
-.block_yellow {
-  background-color: yellow;
-}
-.block_black {
-  background-color: black;
+div:hover .tooltip {
+  display: block;
 }
