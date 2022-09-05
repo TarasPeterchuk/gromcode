@@ -12,18 +12,13 @@ header {
   width: 100%;
   z-index: 1;
 }
-nav {
-  height: 40px;
-}
 
 li {
-  position: relative;
   float: left;
   margin-left: 16px;
   color: white;
-  line-height: 1;
-  display: inline-block;
   height: 40px;
+  line-height: 1.5;
 }
 
 main {
