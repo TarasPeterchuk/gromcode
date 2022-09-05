@@ -17,7 +17,6 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
-  margin-left: 16px;
 }
 .nav_item {
   margin-left: 16px;
