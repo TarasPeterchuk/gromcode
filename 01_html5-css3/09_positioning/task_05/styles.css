@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+ul,
+ol {
+  list-style: none;
+}
 header {
   background-color: darkturquoise;
   height: 40px;
@@ -11,15 +15,17 @@ header {
 nav {
   height: 40px;
 }
+
 li {
+  position: relative;
   float: left;
   margin-left: 16px;
-}
-ul {
-  line-height: normal;
   color: white;
-  position: normal;
+  line-height: 1;
+  display: inline-block;
+  height: 40px;
 }
+
 main {
   height: 5000px;
   background-color: beige;
