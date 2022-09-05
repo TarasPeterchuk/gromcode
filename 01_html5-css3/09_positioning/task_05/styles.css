@@ -1,20 +1,65 @@
 * {
   box-sizing: border-box;
 }
-div {
-  padding: 50px;
-  border: 2px solid black;
+header {
+  background-color: darkturquoise;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
-.div1 {
-  margin: 50px;
-  background-color: blue;
+nav {
+  height: 40px;
 }
-.div2 {
-  background-color: yellow;
+li {
+  float: left;
+  margin-left: 16px;
 }
-.div3 {
-  background-color: green;
+ul {
+  line-height: normal;
+  color: white;
+  position: normal;
 }
-.div4 {
-  background-color: pink;
+main {
+  height: 5000px;
+  background-color: beige;
+}
+.eye {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+}
+.head {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+}
+.ear {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+}
+.ear_right {
+  position: absolute;
+  left: 200px;
+  top: -60px;
+}
+.ear_left {
+  position: absolute;
+  left: -40px;
+  top: -60px;
+}
+.eye_left {
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+.eye_right {
+  position: absolute;
+  right: 40px;
+  top: 80px;
 }
