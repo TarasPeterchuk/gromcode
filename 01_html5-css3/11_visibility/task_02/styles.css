@@ -1,10 +1,23 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
+* {
+  box-sizing: border-box;
 }
-.block {
+.articles {
+  display: flex;
+}
+.articles div {
   height: 100px;
-  width: 100px;
-  flex-shrink: 0;
-  flex-grow: 1;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
+}
+.cropped {
+  overflow: hidden;
+}
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
+}
+.vertical-scroll {
+  overflow: auto;
+  cursor: all-scroll;
 }
