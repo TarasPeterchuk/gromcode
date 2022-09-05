@@ -6,19 +6,17 @@ body {
   flex-direction: column;
 }
 header {
-  display: flex;
   margin: auto;
 }
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .article {
-  display: block;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
   width: 300px;
   flex-grow: 1;
   flex-shrink: 0;
-}
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
 }
