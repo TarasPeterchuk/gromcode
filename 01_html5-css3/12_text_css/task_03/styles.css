@@ -6,7 +6,7 @@ li:nth-last-child(1) {
   text-decoration: underline;
 }
 li:nth-child(1) {
-  text-decoration: red underline;
+  text-decoration: red overline;
   text-decoration-style: wavy;
 }
 
