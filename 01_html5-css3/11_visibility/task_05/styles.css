@@ -1,22 +1,13 @@
-* {
-  box-sizing: border-box;
-}
-.body {
-  display: flex;
-  flex-direction: column;
-}
-header {
-  margin: auto;
-}
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.article {
+.thumb {
   margin: 8px;
-  padding: 16px;
-  background-color: bisque;
-  flex-basis: 300px;
-  flex-grow: 1;
-  flex-shrink: 0;
+}
+.gallery:hover {
+  cursor: all-scroll;
+}
+body {
+  display: flex;
+}
+.gallery {
+  display: flex;
+  overflow: auto;
 }

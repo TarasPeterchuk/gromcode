@@ -7,7 +7,9 @@ div {
   border-bottom: 1px dotted black;
 }
 .tooltip {
-  display: none;
+  clear: both;
+  display: inline-block;
+  /* display: none; */
   background-color: grey;
   border-radius: 4px;
   padding: 8px;
