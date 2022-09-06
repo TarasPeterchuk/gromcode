@@ -1,0 +1,11 @@
+html {
+  font-size: 18px;
+}
+li {
+  color: #f39;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
