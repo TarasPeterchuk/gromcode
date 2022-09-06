@@ -1,11 +1,16 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 18px;
 }
 li {
-  color: #f39;
-  font-size: 24px;
-  line-height: 32px;
   margin: 0;
   padding: 8px;
   list-style-type: none;
+}
+ul {
+  color: #f39;
+  font-size: 24px;
+  line-height: 32px;
 }
