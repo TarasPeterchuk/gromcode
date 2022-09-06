@@ -4,9 +4,6 @@
 .gallery:hover {
   cursor: all-scroll;
 }
-body {
-  display: flex;
-}
 .gallery {
   display: flex;
   overflow: auto;
