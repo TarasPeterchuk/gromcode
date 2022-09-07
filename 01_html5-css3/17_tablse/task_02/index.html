@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Наследование в CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <form action="">
+      <div>
+        <label for="name">Last Name</label>
+        <input type="text" name="lastName" value="Emerson" readonly id="name" />
+      </div>
+      <div>
+        <label for="age">Age </label>
+        <input
+          type="number"
+          required
+          name="age"
+          min="3"
+          max="10"
+          value="17"
+          id="age"
+        />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" id="checkbox" disabled /><label
+          for="checkbox"
+        >
+          Accept terms and conditions</label
+        >
+      </div>
+      <div class="chose-gender">
+        <input type="radio" name="redio" id="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="redio" id="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="redio" id="secret" />
+        <label for="secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="descriptopn"
+          maxlength="10"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+  </body>
+</html>
