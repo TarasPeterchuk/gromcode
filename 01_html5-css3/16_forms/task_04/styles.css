@@ -15,6 +15,7 @@ body {
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  display: block;
 }
 .form-title {
   text-transform: uppercase;
@@ -28,11 +29,11 @@ body {
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
-  display: inline-block;
+  display: block;
 }
 .form-label {
   margin-bottom: 4px;
-  display: inline-block;
+  display: block;
 }
 
 .form-input:required:invalid {
