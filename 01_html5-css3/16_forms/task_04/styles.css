@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   font-family: monospace;
 }
-.page {
+.login-form {
   background-color: aqua;
   width: 300px;
   padding: 16px;
@@ -20,6 +20,7 @@ body {
 .form-title {
   text-transform: uppercase;
   text-align: center;
+  display: block;
 }
 .form-input {
   /* margin-bottom: 8px; */
