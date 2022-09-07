@@ -13,38 +13,32 @@
   </head>
 
   <body>
-    <div class="image-container">
-      <img
-        class="image-content"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
-        alt="land"
-      />
-    </div>
-    <div class="gallery">
-      <figure class="card">
-        <img
-          class="normal"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="caption"
-        />
-        <figcaption>opacity</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="blure"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="caption"
-        />
-        <figcaption>blur</figcaption>
-      </figure>
-      <figure class="card">
-        <img
-          class="invert"
-          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
-          alt="caption"
-        />
-        <figcaption>invert</figcaption>
-      </figure>
-    </div>
+    <form action="">
+      <div><input type="text" name="lastName" value="Emerson" /></div>
+      <div><input type="number" name="age" value="17" /></div>
+      <div>
+        <label
+          ><input type="checkbox" name="agree" /> Accept terms and
+          conditions</label
+        >
+      </div>
+      <div class="chose-gender">
+        <input type="radio" name="redio" id="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="redio" id="female" />
+        <label for="female">Female</label>
+
+        <input type="radio" name="redio" id="secret" />
+        <label for="secret">Secret</label>
+      </div>
+      <div>
+        <textarea
+          name="descriptopn"
+          placeholder="Write description..."
+        ></textarea>
+      </div>
+      <div><button type="submit">Submit</button></div>
+    </form>
   </body>
 </html>
