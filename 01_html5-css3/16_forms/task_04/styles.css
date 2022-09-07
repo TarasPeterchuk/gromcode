@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 .form-input {
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   height: 32px;
   width: 100%;
   border-radius: 4px;
@@ -47,4 +47,7 @@ body {
   text-transform: uppercase;
   color: white;
   border-radius: 4px;
+}
+.form-control {
+  margin-top: 8px;
 }
