@@ -5,7 +5,7 @@
   font-size: 24px;
   margin: 16px;
 }
-input {
+input[type="checkbox"] {
   visibility: hidden;
   height: 0;
   width: 0;
@@ -17,6 +17,7 @@ input {
   height: 25px;
   width: 25px;
   background-color: #d3d3d3;
+  display: inline-block;
 }
 
 label input[type="checkbox"]:checked + .checkmark {
