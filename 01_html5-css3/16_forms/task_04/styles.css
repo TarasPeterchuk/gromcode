@@ -44,10 +44,11 @@ body {
   height: 32px;
   width: 100%;
   background-color: #ff7f50;
-  margin-top: 16px;
+  margin-top: 20px;
   text-transform: uppercase;
   color: white;
   border-radius: 4px;
+  display: inline-block;
 }
 .form-control {
   margin-top: 8px;
