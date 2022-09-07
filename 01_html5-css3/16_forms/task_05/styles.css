@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.elements {
+  margin: 32px;
+}
+.inp {
+  margin: 8px;
+}
