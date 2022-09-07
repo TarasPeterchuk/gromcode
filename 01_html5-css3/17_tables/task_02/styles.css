@@ -16,7 +16,7 @@ table {
 td,
 th {
   text-align: right;
-  line-height: 31px;
+  height: 40px;
   padding: 4px;
 }
 div {
