@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+form > div {
+  margin: 16px;
+}
