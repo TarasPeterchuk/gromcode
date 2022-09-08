@@ -17,13 +17,14 @@
   cursor: pointer;
   text-transform: uppercase;
 }
-.custom:hover {
+.custom:hover:nth-child(1) {
   color: darkcyan;
 }
 .image-svg {
   height: 32px;
   width: 32px;
   vertical-align: middle;
+  fill: white;
 }
 .custom:hover .image-svg {
   fill: green;
