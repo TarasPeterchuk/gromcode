@@ -1,36 +1,48 @@
 * {
   box-sizing: border-box;
 }
-.container {
-  margin: 32px;
+body {
+  display: flex;
+  height: 100vh;
 }
-.rect {
-  margin-bottom: 16px;
-  background-color: coral;
-  opacity: 0.5;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+.fancy-button {
+  margin: auto;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background: linear-gradient(45deg, yellow, red);
+  border: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: jump 0.4s ease-in-out, rotate 0.5s 0.4s ease-in-out,
+    move 1s 2s ease forwards;
 }
-.linear {
-  transition-timing-function: linear;
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
-.ease {
-  transition-timing-function: ease;
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.ease-in {
-  transition-timing-function: ease-in;
-}
-.linear {
-  transition-timing-function: ease-out;
-}
-.linear {
-  transition-timing-function: ease-in-out;
-}
-.rect:hover {
-  width: 100%;
-  opacity: 1;
-  transition-property: width, opacity;
-  transition-duration: 2s, 0.5s;
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(2000px);
+  }
 }
