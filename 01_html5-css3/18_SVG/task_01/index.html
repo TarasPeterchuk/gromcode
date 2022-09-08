@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Наследование в CSS</title>
+    <title>SVG</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -11,47 +11,33 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div>
-      <table>
-        <caption>
-          Shopping list
-        </caption>
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Amount</th>
-            <th>Price</th>
-            <th>Subtotal</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>Milk</td>
-          <td>3</td>
-          <td>$2</td>
-          <td>$6</td>
-        </tr>
-        <tr>
-          <td>Bread</td>
-          <td>4</td>
-          <td>$1</td>
-          <td>$4</td>
-        </tr>
-        <tr>
-          <td>Meat</td>
-          <td>5</td>
-          <td>$10</td>
-          <td>$50</td>
-        </tr>
-        <tfoot>
-          <tr>
-            <td colspan="3">Total</td>
-            <td>$60</td>
-          </tr>
-        </tbody>
-        </tfoot>
-      </table>
+    <div class="row">
+      <div class="column">
+        <img
+          class="small-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png"
+          alt="PNG small bird"
+        />
+        <img
+          class="large-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png"
+          alt="PNG large bird"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="small-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg"
+          alt="SVG small bird"
+        />
+        <img
+          class="large-bird"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg"
+          alt="SVG large bird"
+        />
+      </div>
     </div>
   </body>
 </html>
