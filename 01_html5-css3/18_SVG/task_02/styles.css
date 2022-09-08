@@ -17,7 +17,7 @@
   cursor: pointer;
   text-transform: uppercase;
 }
-.custom:hover:nth-child(1) {
+.hovered:hover(1) {
   color: darkcyan;
 }
 .image-svg {
