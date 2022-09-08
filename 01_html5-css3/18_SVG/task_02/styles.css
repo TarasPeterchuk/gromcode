@@ -26,6 +26,6 @@
   vertical-align: middle;
   fill: white;
 }
-.custom:hover .image-svg {
+.hovered:hover .image-svg {
   fill: green;
 }
