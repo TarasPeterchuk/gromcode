@@ -37,13 +37,13 @@ html {
   margin: 0.5em;
   width: 60%;
   font-size: 1.25em;
+  line-height: 1.75em;
 }
 .news {
   margin: 0.5em;
   width: 20%;
 }
 .nav-list {
-  line-height: 1.75em;
   list-style-type: none;
   padding: 0;
 }
@@ -55,7 +55,8 @@ html {
 }
 .section__header {
   font-size: 5vw;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .nav-list-item {
   background-color: #808080;
