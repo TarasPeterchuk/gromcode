@@ -28,6 +28,7 @@ html {
 .main {
   display: flex;
   flex-direction: row;
+  font-size: 1.25em;
 }
 .navigation {
   margin: 0.5em;
@@ -36,7 +37,6 @@ html {
 .section {
   margin: 0.5em;
   width: 60%;
-  font-size: 1.25em;
 }
 .news {
   margin: 0.5em;
