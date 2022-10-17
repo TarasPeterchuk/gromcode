@@ -37,6 +37,8 @@ html {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
+}
+.section li {
   line-height: 1.75em;
 }
 .news {
